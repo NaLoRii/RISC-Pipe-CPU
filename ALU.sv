@@ -14,7 +14,6 @@
 `define OR  3'b110
 `define AND 3'b111
 //I_type
-//`define NOP 12'b0000_0000_0000
 `define ADDI 3'b000
 `define SLTI 3'b010
 `define XORI 3'b100
@@ -87,8 +86,4 @@ module ALU(//input clk,
     else
       DM_enable=1'b0;  
   end
-
-   
-
-
 endmodule // vscale_alu
